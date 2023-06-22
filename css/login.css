@@ -1,0 +1,234 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center; /* başlık metnini merkezlemek için */
+  font-size: 24px; /* başlık metni için büyük bir font boyutu belirleyin */
+  text-transform: uppercase; /* başlık metnini büyük harfle yazmak için */
+  letter-spacing: 2px; /* başlık metnindeki harfler arasındaki boşlukları ayarlamak için */
+  border-bottom: 2px solid #fff; /* alt sınır çizgisini eklemek için */
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+main {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.form-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+}
+
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #007bff;
+}
+/* Header */
+nav.nav2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav.nav2 h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Form */
+.form-box {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.25);
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.login-link a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+nav {
+  background-color: #212529;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+main {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.form-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+}
+
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #007bff;
+}
+
+/* Header */
+nav {
+  background-color: #212529;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  font-size: 1.2rem; /* Font boyutunu artır */
+}
+
+nav h1 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Form */
+.form-box {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f8f9fa; /* Arka plan rengini değiştir */
+  border-radius: 10px; /* Köşeleri yuvarla */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Gölgelendirme ekle */
+  padding: 30px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.25);
+}
+
+.btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem; /* Font boyutunu azalt */
+  transition: background-color 0.3s ease; /* Geçiş efekti ekle */
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.login-link {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #6c757d; /* Renk değiştir */
+}
+
+.login-link a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

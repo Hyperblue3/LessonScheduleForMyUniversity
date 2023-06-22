@@ -1,0 +1,197 @@
+
+
+/* form elemanları */
+form {
+  margin-left: 40px;
+  max-width: 1000px;
+  max-height: 600px;
+  padding: 20px;
+  border: 1px solid #c1e2ec;
+  border-radius: 10px;
+  background-color: #c1e2ec;
+  display: inline-block;
+  vertical-align: top;
+   
+}
+
+body{
+  background-image: url(sınıf.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+input{
+
+  margin-top: 10px;
+}
+
+input:hover{
+  transform: scale(1.1);
+  background-color: antiquewhite;
+  transition: 0.5s ease;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+/* tablo elemanları */
+table {
+  border-collapse: collapse;
+  width: 800px;
+  max-height: 500px;
+  margin-left: 550px;
+  position: relative;
+  top: -1180px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+  
+}
+
+th {
+  background-color: #c1e2ec;
+  font-weight: bold;
+  
+}
+
+thead {
+  background-color: #f5f5f5;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(215, 238, 215);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+
+/* tablonun saat/gün sütunu */
+th:first-child, td:first-child {
+  text-align: left;
+  background-color: #c1e2ec;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+
+.form-container {
+  margin-right: 20px;
+  max-width: 200px;
+  max-height: 800px;
+  position: relative;
+  top: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.table-container {
+  flex-grow: 1;
+  max-width: 800px;
+  height: 400px;
+}
+
+div.session-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+a#logout-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+a#logout-link:hover {
+  background-color: #d32f2f;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+
+}
+#uyari-mesaji {
+  color: black;
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid black;
+  width: 350px; 
+  height: 80px;
+     position: static;
+    margin-left: 613px;
+    margin-top: -77px;
+    transform: translate(-50%, -489%);
+    font-weight: bold;
+}
+
+.error-message {
+  background-color: #ffdddd;
+  color: #ff0000;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 550px; 
+  position: absolute;
+    top: 206px;
+    left: 981px;
+    transform: translate(-50%, -50%);
+}
