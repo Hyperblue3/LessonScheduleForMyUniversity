@@ -18,7 +18,7 @@ function send_mail($recipient,$subject,$message)
   $mail->Host       = "smtp.sendgrid.net";
   //$mail->Host       = "smtp.mail.yahoo.com";
   $mail->Username   = "apikey";
-  $mail->Password   = "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";
+  $mail->Password   = "*********************************************************";
 
   $mail->IsHTML(true);
   $mail->AddAddress($recipient, "esteemed customer");
